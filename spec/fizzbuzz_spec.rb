@@ -22,4 +22,10 @@ describe 'fizzbuzz' do
   it 'returns "buzz" when passed 125' do
     expect(fizzbuzz(125)).to eq 'buzz'
   end
+  it 'return "fizz" when passed 999' do
+    expect(fizzbuzz(999)).to eq 'fizz'
+  end
+  it 'returns "fizzbuzz" when passed 555' do
+    expect(fizzbuzz(555)).to eq 'fizzbuzz'
+  end
 end
